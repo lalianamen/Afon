@@ -1,31 +1,29 @@
-# AFON — сайт
+# Welcome to your Lovable project
 
-Одностраничный сайт компании AFON (обслуживание и ремонт кондиционеров и отопления, Лос-Анджелес).
-Обычный HTML + CSS, без сборки: открыть `index.html` в браузере или задеплоить папку на Vercel / Netlify / GitHub Pages.
+This project was built with [Lovable](https://lovable.dev).
 
-## Что заменить перед запуском
+## Build with Lovable
 
-- [ ] Телефон: `(323) 000-0000` и `+13230000000` в `index.html`
-- [ ] Email: `hello@afon.example` в `index.html` (в двух местах, включая скрипт формы)
-- [ ] Районы обслуживания в разделе `#areas`
-- [ ] Список услуг — оставить только то, что реально делаете
-- [ ] Логотип (сейчас текстовый)
+Open your project in the [Lovable editor](https://lovable.dev) and keep building.
 
-## Важно: пока нет лицензии
+- **Ship faster**: describe what you want to build and Lovable handles the code.
+- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
+- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
 
-В футере стоит обязательная по закону Калифорнии пометка (B&P Code §7027.1), что компания не лицензирована
-и берёт только работы до $1,000 (работа + материалы) без permit. **Не удалять её, пока не получена лицензия.**
-Нельзя писать «licensed», «licensed & insured» и т.п.
+## Development
 
-После получения лицензии:
-1. Заменить текст в футере на `CSLB License #XXXXXXX` (номер лицензии обязателен на сайте и в рекламе).
-2. Добавить услуги по установке/замене систем.
-3. Можно добавить «Licensed & Insured» (если есть страховка).
+Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
 
-## План рекламы (после запуска сайта)
+```sh
+git clone <this-repository-url>
+cd <repository-name>
+npm i
+npm run dev
+```
 
-1. **Google Business Profile** — бесплатно, главный источник звонков для HVAC.
-2. **Yelp, Nextdoor, Thumbtack** — профили компании.
-3. **Google Local Services Ads** — требуют лицензию, подключать после её получения.
-4. **Google Ads** — по ключевым словам вида «ac repair glendale», с пометкой о статусе лицензии.
-5. Отзывы: просить каждого довольного клиента оставить отзыв в Google.
+## Built with
+
+- TanStack Start
+- TypeScript
+- React
+- Tailwind CSS
